@@ -1,0 +1,851 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1778 ]
+[d frameptr 6 ]
+"133 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\doprnt.c
+[v _pad pad `(v  1 s 1 pad ]
+"894
+[v _utoa utoa `(v  1 s 1 utoa ]
+"1007
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1520
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"7 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"7 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"8 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"56 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\main.c
+[v _main main `(v  1 e 1 0 ]
+"110
+[v _Rising_interrupt Rising_interrupt `(v  1 e 1 0 ]
+"115
+[v _Falling_interrupt Falling_interrupt `(v  1 e 1 0 ]
+"128
+[v _putch putch `(v  1 e 1 0 ]
+"60 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/ccp1.c
+[v _CCP1_DefaultCallBack CCP1_DefaultCallBack `(v  1 s 1 CCP1_DefaultCallBack ]
+"65
+[v _CCP1_Initialize CCP1_Initialize `(v  1 e 1 0 ]
+"92
+[v _CCP1_CaptureISR CCP1_CaptureISR `(v  1 e 1 0 ]
+"107
+[v _CCP1_SetCallBack CCP1_SetCallBack `(v  1 e 1 0 ]
+"60 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/ccp2.c
+[v _CCP2_DefaultCallBack CCP2_DefaultCallBack `(v  1 s 1 CCP2_DefaultCallBack ]
+"65
+[v _CCP2_Initialize CCP2_Initialize `(v  1 e 1 0 ]
+"92
+[v _CCP2_CaptureISR CCP2_CaptureISR `(v  1 e 1 0 ]
+"107
+[v _CCP2_SetCallBack CCP2_SetCallBack `(v  1 e 1 0 ]
+"88 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"173
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"197
+[v _EUSART_Transmit_ISR EUSART_Transmit_ISR `(v  1 e 1 0 ]
+"216
+[v _EUSART_Receive_ISR EUSART_Receive_ISR `(v  1 e 1 0 ]
+"240
+[v _EUSART_RxDataHandler EUSART_RxDataHandler `(v  1 e 1 0 ]
+"250
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"252
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"260
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"264
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"268
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"272
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"276
+[v _EUSART_SetTxInterruptHandler EUSART_SetTxInterruptHandler `(v  1 e 1 0 ]
+"280
+[v _EUSART_SetRxInterruptHandler EUSART_SetRxInterruptHandler `(v  1 e 1 0 ]
+"52 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"63
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"79
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"55 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"58 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/pwm11.c
+[v _PWM11_Initialize PWM11_Initialize `(v  1 e 1 0 ]
+"128
+[v _PWM11_LoadBufferSet PWM11_LoadBufferSet `(v  1 e 1 0 ]
+"139
+[v _PWM11_DutyCycleSet PWM11_DutyCycleSet `(v  1 e 1 0 ]
+"63 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"113
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+[s S22 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"375 D:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1778.h
+[s S31 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S36 . 1 `S22 1 . 1 0 `S31 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES36  1 e 1 @11 ]
+[s S82 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"658
+[s S91 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CCPIF 1 0 :1:2 
+]
+[u S94 . 1 `S82 1 . 1 0 `S91 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES94  1 e 1 @17 ]
+[s S135 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 C3IF 1 0 :1:1 
+`uc 1 C4IF 1 0 :1:2 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 COG1IF 1 0 :1:4 
+`uc 1 C1IF 1 0 :1:5 
+`uc 1 C2IF 1 0 :1:6 
+`uc 1 OSFIF 1 0 :1:7 
+]
+"725
+[u S144 . 1 `S135 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES144  1 e 1 @18 ]
+"975
+[v _TMR1L TMR1L `VEuc  1 e 1 @24 ]
+"995
+[v _TMR1H TMR1H `VEuc  1 e 1 @25 ]
+"1015
+[v _T1CON T1CON `VEuc  1 e 1 @26 ]
+[s S705 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 nSYNC 1 0 :1:2 
+`uc 1 OSCEN 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+`uc 1 CS 1 0 :2:6 
+]
+"1057
+[s S712 . 1 `uc 1 TMRON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 SYNC 1 0 :1:2 
+`uc 1 SOSCEN 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CS0 1 0 :1:6 
+`uc 1 CS1 1 0 :1:7 
+]
+[s S721 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 T1CS0 1 0 :1:6 
+`uc 1 T1CS1 1 0 :1:7 
+]
+[s S729 . 1 `uc 1 T1ON 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+[u S736 . 1 `S705 1 . 1 0 `S712 1 . 1 0 `S721 1 . 1 0 `S729 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES736  1 e 1 @26 ]
+"1172
+[v _T1GCON T1GCON `VEuc  1 e 1 @27 ]
+[s S773 . 1 `uc 1 GSS 1 0 :2:0 
+`uc 1 GVAL 1 0 :1:2 
+`uc 1 GGO_nDONE 1 0 :1:3 
+`uc 1 GSPM 1 0 :1:4 
+`uc 1 GTM 1 0 :1:5 
+`uc 1 GPOL 1 0 :1:6 
+`uc 1 GE 1 0 :1:7 
+]
+"1207
+[s S781 . 1 `uc 1 GSS0 1 0 :1:0 
+`uc 1 GSS1 1 0 :1:1 
+`uc 1 . 1 0 :5:2 
+`uc 1 T1GE 1 0 :1:7 
+]
+[s S786 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nDONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 TMR1GE 1 0 :1:7 
+]
+[s S794 . 1 `uc 1 T1GSS0 1 0 :1:0 
+`uc 1 T1GSS1 1 0 :1:1 
+]
+[u S797 . 1 `S773 1 . 1 0 `S781 1 . 1 0 `S786 1 . 1 0 `S794 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES797  1 e 1 @27 ]
+"1636
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1698
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1760
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1822
+[v _TRISE TRISE `VEuc  1 e 1 @144 ]
+[s S54 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1864
+[s S63 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CCPIE 1 0 :1:2 
+]
+[u S66 . 1 `S54 1 . 1 0 `S63 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES66  1 e 1 @145 ]
+[s S114 . 1 `uc 1 CCP2IE 1 0 :1:0 
+`uc 1 C3IE 1 0 :1:1 
+`uc 1 C4IE 1 0 :1:2 
+`uc 1 BCL1IE 1 0 :1:3 
+`uc 1 COGIE 1 0 :1:4 
+`uc 1 C1IE 1 0 :1:5 
+`uc 1 C2IE 1 0 :1:6 
+`uc 1 OSFIE 1 0 :1:7 
+]
+"1931
+[u S123 . 1 `S114 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES123  1 e 1 @146 ]
+[s S225 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"2177
+[s S232 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S239 . 1 `S225 1 . 1 0 `S232 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES239  1 e 1 @151 ]
+"2294
+[v _WDTCON WDTCON `VEuc  1 e 1 @153 ]
+"2353
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @154 ]
+"2411
+[v _OSCCON OSCCON `VEuc  1 e 1 @155 ]
+"2483
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @156 ]
+"2545
+[v _BORCON BORCON `VEuc  1 e 1 @157 ]
+"2674
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2736
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"2798
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"3723
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3773
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3823
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"4065
+[v _RC1REG RC1REG `VEuc  1 e 1 @409 ]
+"4119
+[v _TX1REG TX1REG `VEuc  1 e 1 @410 ]
+"4180
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @411 ]
+"4250
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @412 ]
+"4304
+[v _RC1STA RC1STA `VEuc  1 e 1 @413 ]
+[s S385 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4330
+[u S394 . 1 `S385 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES394  1 e 1 @413 ]
+"4484
+[v _TX1STA TX1STA `VEuc  1 e 1 @414 ]
+[s S363 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"4510
+[u S372 . 1 `S363 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES372  1 e 1 @414 ]
+"4664
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @415 ]
+"4910
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"4972
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"5034
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"5096
+[v _WPUE WPUE `VEuc  1 e 1 @528 ]
+"6925
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"6987
+[v _ODCONB ODCONB `VEuc  1 e 1 @653 ]
+"7049
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"7118
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @657 ]
+"7138
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @658 ]
+"7158
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @659 ]
+"7276
+[v _CCP1CAP CCP1CAP `VEuc  1 e 1 @660 ]
+"7363
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @661 ]
+"7383
+[v _CCPR2H CCPR2H `VEuc  1 e 1 @662 ]
+"7403
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @663 ]
+"7521
+[v _CCP2CAP CCP2CAP `VEuc  1 e 1 @664 ]
+"7986
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"8048
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @781 ]
+"8110
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"8992
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"9054
+[v _INLVLB INLVLB `VEuc  1 e 1 @909 ]
+"9116
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+"30258
+[v _PWM11PHL PWM11PHL `VEuc  1 e 1 @3505 ]
+"30336
+[v _PWM11PHH PWM11PHH `VEuc  1 e 1 @3506 ]
+"30421
+[v _PWM11DCL PWM11DCL `VEuc  1 e 1 @3507 ]
+"30499
+[v _PWM11DCH PWM11DCH `VEuc  1 e 1 @3508 ]
+"30584
+[v _PWM11PRL PWM11PRL `VEuc  1 e 1 @3509 ]
+"30662
+[v _PWM11PRH PWM11PRH `VEuc  1 e 1 @3510 ]
+"30747
+[v _PWM11OFL PWM11OFL `VEuc  1 e 1 @3511 ]
+"30825
+[v _PWM11OFH PWM11OFH `VEuc  1 e 1 @3512 ]
+"30910
+[v _PWM11TMRL PWM11TMRL `VEuc  1 e 1 @3513 ]
+"30988
+[v _PWM11TMRH PWM11TMRH `VEuc  1 e 1 @3514 ]
+"31066
+[v _PWM11CON PWM11CON `VEuc  1 e 1 @3515 ]
+[s S506 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 MODE 1 0 :2:2 
+`uc 1 POL 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"31099
+[s S513 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM11MODE0 1 0 :1:2 
+`uc 1 PWM11MODE1 1 0 :1:3 
+]
+[s S517 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM11MODE 1 0 :2:2 
+`uc 1 PWM11POL 1 0 :1:4 
+`uc 1 PWM11OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PWM11EN 1 0 :1:7 
+]
+[s S524 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 MODE0 1 0 :1:2 
+`uc 1 MODE1 1 0 :1:3 
+]
+[u S528 . 1 `S506 1 . 1 0 `S513 1 . 1 0 `S517 1 . 1 0 `S524 1 . 1 0 ]
+[v _PWM11CONbits PWM11CONbits `VES528  1 e 1 @3515 ]
+"31164
+[v _PWM11INTE PWM11INTE `VEuc  1 e 1 @3516 ]
+"31290
+[v _PWM11INTF PWM11INTF `VEuc  1 e 1 @3517 ]
+[s S594 . 1 `uc 1 PRIF 1 0 :1:0 
+`uc 1 DCIF 1 0 :1:1 
+`uc 1 PHIF 1 0 :1:2 
+`uc 1 OFIF 1 0 :1:3 
+]
+"31314
+[s S599 . 1 `uc 1 PWM11PRIF 1 0 :1:0 
+`uc 1 PWM11DCIF 1 0 :1:1 
+`uc 1 PWM11PHIF 1 0 :1:2 
+`uc 1 PWM11OFIF 1 0 :1:3 
+]
+[u S604 . 1 `S594 1 . 1 0 `S599 1 . 1 0 ]
+[v _PWM11INTFbits PWM11INTFbits `VES604  1 e 1 @3517 ]
+"31416
+[v _PWM11CLKCON PWM11CLKCON `VEuc  1 e 1 @3518 ]
+"31536
+[v _PWM11LDCON PWM11LDCON `VEuc  1 e 1 @3519 ]
+[s S556 . 1 `uc 1 LDS 1 0 :2:0 
+`uc 1 . 1 0 :4:2 
+`uc 1 LDT 1 0 :1:6 
+`uc 1 LDA 1 0 :1:7 
+]
+"31563
+[s S561 . 1 `uc 1 PWM11LDS0 1 0 :1:0 
+`uc 1 PWM11LDS1 1 0 :1:1 
+]
+[s S564 . 1 `uc 1 PWM11LDS 1 0 :2:0 
+`uc 1 . 1 0 :4:2 
+`uc 1 PWM11LDM 1 0 :1:6 
+`uc 1 PWM11LD 1 0 :1:7 
+]
+[s S569 . 1 `uc 1 LDS0 1 0 :1:0 
+`uc 1 LDS1 1 0 :1:1 
+]
+[u S572 . 1 `S556 1 . 1 0 `S561 1 . 1 0 `S564 1 . 1 0 `S569 1 . 1 0 ]
+[v _PWM11LDCONbits PWM11LDCONbits `VES572  1 e 1 @3519 ]
+"31618
+[v _PWM11OFCON PWM11OFCON `VEuc  1 e 1 @3520 ]
+"32122
+[v _CCP1PPS CCP1PPS `VEuc  1 e 1 @3609 ]
+"32142
+[v _CCP2PPS CCP2PPS `VEuc  1 e 1 @3610 ]
+"32702
+[v _RXPPS RXPPS `VEuc  1 e 1 @3645 ]
+"32942
+[v _RB2PPS RB2PPS `VEuc  1 e 1 @3738 ]
+"33142
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @3748 ]
+"41906
+"41906
+[v _PLLR PLLR `VEb  1 e 0 @1254 ]
+"99 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"100
+[v _flags flags `uc  1 s 1 flags ]
+"125
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"46 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\main.c
+[v _g_rising_value g_rising_value `ui  1 e 2 0 ]
+"47
+[v _g_falling_value g_falling_value `ui  1 e 2 0 ]
+"48
+[v _g_pulse_width g_pulse_width `ui  1 e 2 0 ]
+"54 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/ccp1.c
+[v _CCP1_CallBack CCP1_CallBack `*.37(v  1 s 2 CCP1_CallBack ]
+"54 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/ccp2.c
+[v _CCP2_CallBack CCP2_CallBack `*.37(v  1 s 2 CCP2_CallBack ]
+"62 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/eusart.c
+[v _eusartTxHead eusartTxHead `VEuc  1 e 1 0 ]
+"63
+[v _eusartTxTail eusartTxTail `VEuc  1 e 1 0 ]
+"64
+[v _eusartTxBuffer eusartTxBuffer `VE[8]uc  1 e 8 0 ]
+"65
+[v _eusartTxBufferRemaining eusartTxBufferRemaining `VEuc  1 e 1 0 ]
+"67
+[v _eusartRxHead eusartRxHead `VEuc  1 e 1 0 ]
+"68
+[v _eusartRxTail eusartRxTail `VEuc  1 e 1 0 ]
+"69
+[v _eusartRxBuffer eusartRxBuffer `VE[8]uc  1 e 8 0 ]
+[s S279 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"70
+[u S284 . 1 `S279 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxStatusBuffer eusartRxStatusBuffer `VE[8]S284  1 e 8 0 ]
+"71
+[v _eusartRxCount eusartRxCount `VEuc  1 e 1 0 ]
+"72
+[v _eusartRxLastError eusartRxLastError `VES284  1 e 1 0 ]
+"77
+[v _EUSART_TxDefaultInterruptHandler EUSART_TxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"78
+[v _EUSART_RxDefaultInterruptHandler EUSART_RxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"80
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"81
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"82
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+"57 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"56 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"60
+[v main@duty duty `ui  1 a 2 2 ]
+"59
+[v main@flag flag `i  1 a 2 0 ]
+"109
+} 0
+"5 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.4v  1 a 1 77 ]
+"5
+[v printf@fmt fmt `*.25DCuc  1 p 2 73 ]
+"13
+} 0
+"1520 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+[s S1407 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.1S1407  1 a 1 wreg ]
+"1523
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 71 ]
+"1520
+[v vfprintf@fp fp `*.1S1407  1 a 1 wreg ]
+[v vfprintf@fmt fmt `*.25DCuc  1 p 2 66 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 68 ]
+"1525
+"1520
+[v vfprintf@fp fp `*.1S1407  1 a 1 70 ]
+"1543
+} 0
+"1007
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[s S1407 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.1S1407  1 a 1 wreg ]
+[u S1420 . 8 `o 1 ll 8 0 `uo 1 llu 8 0 `*.1v 1 vp 2 0 `d 1 f 4 0 ]
+"1016
+[v vfpfcnvrt@convarg convarg `S1420  1 a 8 55 ]
+"1009
+[v vfpfcnvrt@cp cp `*.25uc  1 a 2 64 ]
+"1007
+[v vfpfcnvrt@fp fp `*.1S1407  1 a 1 wreg ]
+[v vfpfcnvrt@fmt fmt `*.4*.25uc  1 p 1 49 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 50 ]
+"1019
+"1007
+[v vfpfcnvrt@fp fp `*.1S1407  1 a 1 63 ]
+"1517
+} 0
+"894
+[v _utoa utoa `(v  1 s 1 utoa ]
+{
+[s S1407 _IO_FILE 0 ]
+[v utoa@fp fp `*.1S1407  1 a 1 wreg ]
+"897
+[v utoa@n n `uo  1 a 8 39 ]
+"896
+[v utoa@i i `i  1 a 2 47 ]
+[v utoa@p p `i  1 a 2 37 ]
+[v utoa@w w `i  1 a 2 34 ]
+"894
+[v utoa@fp fp `*.1S1407  1 a 1 wreg ]
+[v utoa@d d `uo  1 p 8 25 ]
+"905
+"894
+[v utoa@fp fp `*.1S1407  1 a 1 36 ]
+"926
+} 0
+"133
+[v _pad pad `(v  1 s 1 pad ]
+{
+[s S1407 _IO_FILE 0 ]
+[v pad@fp fp `*.1S1407  1 a 1 wreg ]
+"135
+[v pad@w w `i  1 a 2 22 ]
+[v pad@i i `i  1 a 2 20 ]
+"133
+[v pad@fp fp `*.1S1407  1 a 1 wreg ]
+[v pad@buf buf `*.5uc  1 p 1 16 ]
+[v pad@p p `i  1 p 2 17 ]
+"145
+"133
+[v pad@fp fp `*.1S1407  1 a 1 24 ]
+"164
+} 0
+"8 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+[v fputs@s s `*.5DCuc  1 a 1 wreg ]
+"11
+[v fputs@i i `i  1 a 2 14 ]
+"10
+[v fputs@c c `uc  1 a 1 13 ]
+"8
+[v fputs@s s `*.5DCuc  1 a 1 wreg ]
+[u S1385 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+[s S1388 _IO_FILE 10 `S1385 1 . 2 0 `i 1 count 2 2 `[2]uc 1 ungetbuf 2 4 `i 1 ungetcnt 2 6 `i 1 limit 2 8 ]
+[v fputs@fp fp `*.1S1388  1 p 1 9 ]
+"13
+[v fputs@s s `*.5DCuc  1 a 1 12 ]
+"19
+} 0
+"8 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 1 ]
+[u S1385 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+[s S1388 _IO_FILE 10 `S1385 1 . 2 0 `i 1 count 2 2 `[2]uc 1 ungetbuf 2 4 `i 1 ungetcnt 2 6 `i 1 limit 2 8 ]
+[v fputc@fp fp `*.1S1388  1 p 1 3 ]
+"24
+} 0
+"128 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\main.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@data data `uc  1 a 1 wreg ]
+[v putch@data data `uc  1 a 1 wreg ]
+"130
+[v putch@data data `uc  1 a 1 0 ]
+"132
+} 0
+"173 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/eusart.c
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 5 ]
+"194
+} 0
+"7 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+{
+"12
+[v ___lomod@counter counter `uc  1 a 1 5 ]
+"7
+[v ___lomod@divisor divisor `uo  1 p 8 0 ]
+[v ___lomod@dividend dividend `uo  1 p 8 8 ]
+"27
+} 0
+"7 D:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+{
+"12
+[v ___lodiv@quotient quotient `uo  1 a 8 16 ]
+"13
+[v ___lodiv@counter counter `uc  1 a 1 24 ]
+"7
+[v ___lodiv@divisor divisor `uo  1 p 8 0 ]
+[v ___lodiv@dividend dividend `uo  1 p 8 8 ]
+"32
+} 0
+"50 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"61
+} 0
+"79
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"63 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"84
+} 0
+"58 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/pwm11.c
+[v _PWM11_Initialize PWM11_Initialize `(v  1 e 1 0 ]
+{
+"110
+} 0
+"55 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"121
+} 0
+"63 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"88 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"130
+} 0
+"276
+[v _EUSART_SetTxInterruptHandler EUSART_SetTxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetTxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"278
+} 0
+"280
+[v _EUSART_SetRxInterruptHandler EUSART_SetRxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetRxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"282
+} 0
+"268
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"270
+} 0
+"264
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"266
+} 0
+"272
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"274
+} 0
+"65 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/ccp2.c
+[v _CCP2_Initialize CCP2_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"107
+[v _CCP2_SetCallBack CCP2_SetCallBack `(v  1 e 1 0 ]
+{
+[v CCP2_SetCallBack@customCallBack customCallBack `*.37(v  1 p 2 4 ]
+"109
+} 0
+"65 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/ccp1.c
+[v _CCP1_Initialize CCP1_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"107
+[v _CCP1_SetCallBack CCP1_SetCallBack `(v  1 e 1 0 ]
+{
+[v CCP1_SetCallBack@customCallBack customCallBack `*.37(v  1 p 2 4 ]
+"109
+} 0
+"128 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/pwm11.c
+[v _PWM11_LoadBufferSet PWM11_LoadBufferSet `(v  1 e 1 0 ]
+{
+"131
+} 0
+"139
+[v _PWM11_DutyCycleSet PWM11_DutyCycleSet `(v  1 e 1 0 ]
+{
+[v PWM11_DutyCycleSet@dutyCycleCount dutyCycleCount `us  1 p 2 4 ]
+"143
+} 0
+"52 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"82
+} 0
+"197 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/eusart.c
+[v _EUSART_Transmit_ISR EUSART_Transmit_ISR `(v  1 e 1 0 ]
+{
+"214
+} 0
+"216
+[v _EUSART_Receive_ISR EUSART_Receive_ISR `(v  1 e 1 0 ]
+{
+"238
+} 0
+"252
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+"258
+} 0
+"250
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"260
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"262
+} 0
+"240
+[v _EUSART_RxDataHandler EUSART_RxDataHandler `(v  1 e 1 0 ]
+{
+"248
+} 0
+"92 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/ccp2.c
+[v _CCP2_CaptureISR CCP2_CaptureISR `(v  1 e 1 0 ]
+{
+[s S1035 . 2 `uc 1 ccpr2l 1 0 `uc 1 ccpr2h 1 1 ]
+"94
+[s S1038 . 2 `us 1 ccpr2_16Bit 2 0 ]
+[u S1040 CCPR2Reg_tag 2 `S1035 1 . 2 0 `S1038 1 . 2 0 ]
+[v CCP2_CaptureISR@module module `S1040  1 a 2 2 ]
+"105
+} 0
+"60
+[v _CCP2_DefaultCallBack CCP2_DefaultCallBack `(v  1 s 1 CCP2_DefaultCallBack ]
+{
+[v CCP2_DefaultCallBack@capturedValue capturedValue `us  1 p 2 0 ]
+"63
+} 0
+"115 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\main.c
+[v _Falling_interrupt Falling_interrupt `(v  1 e 1 0 ]
+{
+[v Falling_interrupt@falling_value falling_value `ui  1 p 2 0 ]
+"127
+} 0
+"92 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\mcc_generated_files/ccp1.c
+[v _CCP1_CaptureISR CCP1_CaptureISR `(v  1 e 1 0 ]
+{
+[s S970 . 2 `uc 1 ccpr1l 1 0 `uc 1 ccpr1h 1 1 ]
+"94
+[s S973 . 2 `us 1 ccpr1_16Bit 2 0 ]
+[u S975 CCPR1Reg_tag 2 `S970 1 . 2 0 `S973 1 . 2 0 ]
+[v CCP1_CaptureISR@module module `S975  1 a 2 2 ]
+"105
+} 0
+"60
+[v _CCP1_DefaultCallBack CCP1_DefaultCallBack `(v  1 s 1 CCP1_DefaultCallBack ]
+{
+[v CCP1_DefaultCallBack@capturedValue capturedValue `us  1 p 2 0 ]
+"63
+} 0
+"110 D:\Users\hirot\Desktop\pic\CCP_Caputure_1778\main.c
+[v _Rising_interrupt Rising_interrupt `(v  1 e 1 0 ]
+{
+[v Rising_interrupt@rising_value rising_value `ui  1 p 2 0 ]
+"114
+} 0
